@@ -41,13 +41,47 @@ class Caneta:
 
     def destampar(self):
         self.tampada = False
+```
 
+## Gerando um objeto a partir da classe
 
+### Instanciar classe em forma de objeto
+
+```python
 # Exemplo de uso
-c1 = Caneta("BIC", "Azul", 0.5, 100, True)
+c1 = nova Caneta
+c1.cor = "Azul"
+c1.ponta = "0.5"
+c1.tampada = falso
 
 c1.rabiscar()   # Vai dar "ERRO", pois está tampada
 c1.destampar()
 c1.rabiscar()   # Vai dar "Rabisco"
 
+c2 = nova Caneta
+c2.cor = "Vermelho"
+c2.ponta = "1.0"
+c2.tampada = falso
+
+c2.tampar()
+
+
+```
+
+```python
+# Exemplo prático
+class Caderno:
+	cor = cor
+	aberto = False
+
+	def rasgarFolha():
+		if aberto = False
+			print("Já está aberto")
+		else
+			print("Folha rasgada")
+
+	def abrir:
+		aberto = True
+	def fechar:
+		aberto = False
 ```
