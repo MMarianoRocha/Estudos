@@ -9,3 +9,5 @@
 ### Setters
 
 ![1758739461699](image/POOTeoria04a-MétodosEspeciais/1758739461699.png)
+
+## Método construtor
