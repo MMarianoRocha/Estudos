@@ -1,13 +1,16 @@
-## Métodos acessores
+# Pilares da programação orientada a objetos
 
-### Getters
+## EHP
 
-![1758739371509](image/POOTeoria04a-MétodosEspeciais/1758739371509.png)
+* **Encapsulamento (Não é obrigatório, mas é uma boa prática para produzir Classes mais eficientes)**
 
-## Métodos modificadores
+  * Encapsular: Ocultar partes independentes da implementação, permitindo construir partes invisiveis ao mundo exterior; (ex: pilha)
+  * Interface: Lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe. (ex: polos da pilha)
+* **Herança**;
+* **Polimorfismo**
 
-### Setters
+### Vantagens em encapsular:
 
-![1758739461699](image/POOTeoria04a-MétodosEspeciais/1758739461699.png)
-
-## Método construtor
+1. Tornar mudanças invisíveis (ex: troca de pilha);
+2. Facilitar reutilização do código;
+3. Reduzir efetios colaterais.
